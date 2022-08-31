@@ -1,0 +1,37 @@
+footer{
+padding: 25px;
+background-color:$color-principal01;
+margin-top: 150px;
+
+
+    .piedePag{
+    color: antiquewhite;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size: 30px;
+    text-decoration: solid;
+    text-align: center;
+    }
+
+
+        .flexContainerFooter {
+        display: flex;
+        justify-content: center;
+        }
+
+        .flexContainerFooter > div {
+        width: 100px;
+        margin: 10px;
+        line-height: 75px;
+        font-size: 30px;
+        }
+
+
+
+                h3{
+                color: azure;
+                font-family: 'Anek Malayalam', sans-serif;
+                font-size: 20px;
+                text-align: center;
+                padding: 100px;
+                }
+    }

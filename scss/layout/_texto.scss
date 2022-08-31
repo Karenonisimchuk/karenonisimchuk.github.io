@@ -1,0 +1,37 @@
+.estudios{
+    @extend tipo01;
+    color: $color-principal01;
+}
+
+.segundoTexto{
+    @extend tipo01;
+    color: rgb(255, 255, 255);
+    background-color: $color-principal02;
+    margin: 80px 40px 80px 40px;
+}
+
+
+.tercerTexto{
+    @extend tipo01;
+    color: black;
+    padding: 40px;
+    border: 10px solid rgb(238, 180, 144);
+    margin: 80px 40px 80px 40px;
+}
+
+
+.textoNormal{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 80px 40px 80px 40px;
+}
+
+.subtitulos{
+    @extend tipo01;
+    color: $color-principal02;
+	font-size: 30px;
+    padding: 40px;
+    margin: 80px 40px 80px 40px;
+	
+}

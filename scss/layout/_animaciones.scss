@@ -1,0 +1,81 @@
+.imagenPerfil{
+    width: 50%;
+    height: auto;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    margin-bottom: 30px;
+  
+      @keyframes example {
+         0%   {left:0px; top:0px;}
+         100%  {left:300px; top:0px;}
+
+         }
+}
+
+
+.container {
+    position: relative;
+    width: auto;
+}
+  
+      .overlay {
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         background-color: $color-principal01;
+         overflow: hidden;
+         width: 0;
+         height: 100%;
+         transition: .5s ease;
+      }
+      
+         .container:hover .overlay {
+            width: auto;
+         }
+
+   
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+   
+   } 
+    
+    .bloque02-imgA{
+       @extend img01;
+       transition: width 2s, height 2s, transform 2s;
+       text-align: center;
+      }
+         .bloque02-imgA :hover{
+            @extend img02;
+         }
+    
+      .bloque02-imgB{
+        @extend img01;
+        transition: width 2s, height 2s, transform 2s;
+        text-align: center;
+      }
+         .bloque02-imgB :hover{
+            @extend img02;
+            
+         }
+    
+      .bloque02-imgC{
+        @extend img01;
+        transition: width 2s, height 2s, transform 2s;
+        text-align: center;
+      }
+         .bloque02-imgC :hover{
+            @extend img02;
+         }
+
+
