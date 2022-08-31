@@ -55,26 +55,44 @@
         </div>
       </section>
 
-    <div class="container">
-      <form action="/action_page.php">
-        <label for="fname">Nombre y apellido</label>
-        <input type="text" id="fname" name="firstname" placeholder="Karen Onisimchuk">
+      <section>
+        <div class="row magenesCont"> 
 
-        <label for="lname">Empresa</label>
-        <input type="text" id="lname" name="lastname" placeholder="Wineem">
+          <div class="mb-3">
+            <label for="nombrelInput" class="form-label">Nombre y apellido</label>
+            <input type="email" class="form-control" id="nombrelInput" placeholder="Karen Onisimchuk">
+          </div>
 
-        <label for="country">País</label>
-        <select id="country" name="country">
-          <option value="australia">Argentina</option>
-          <option value="canada">EEUU</option>
-          <option value="usa">Mexico</option>
-        </select>
+          <div class="mb-3">
+            <label for="empresaInput" class="form-label">Empresa</label>
+            <input type="email" class="form-control" id="empresaInput" placeholder="Wineem" >
+          </div>
 
-        <label for="subject">Propuesta</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <div class="mb-3">
+            <label for="emailInput" class="form-label">Email</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="karenonisimchuk@gmail.com">
+          </div>
 
-        <input type="submit" value="Enviar">
-      </form>
+          <div class="mb-3">
+            <label for="paisInput" class="form-label">Pais</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected></option>
+              <option value="1">Argentina</option>
+              <option value="2">EEUU</option>
+              <option value="3">Mexico</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="propuestaTextarea1" class="form-label">Propuesta</label>
+            <textarea class="form-control" id="propuestaTextarea1" rows="3" placeholder="Escribe algo.." ></textarea>
+          </div>
+
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-light" type="button">Enviar</button>
+          </div>
+        </div>
+      </select>
     </div>
     <!-- FIN BLOQUE-->
 
